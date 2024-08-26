@@ -12,6 +12,21 @@ const person = {
 
      
 }
+//uisng valu change and adding here
+person.firstName = 'Raiyan'
+person.lastname = 'Rana'
+person.age = 30
+person.phone =10101
+person.gfnumber = " 787987878798 "
+person.tmi = ' hello bangladesh'
+person.kaka = " Ami sudu tmr jone basi bon"
+person.address = ' Rangpur Bangladesh'
+//uising valu delete here 
+delete person.gfnumber
+delete person.firstName
+delete person.age
+delete person.lastname
 
-console.log(person.firstName,person.lastname,person.age,person.phone,person.address)
+
+console.log('age' in person)
 
